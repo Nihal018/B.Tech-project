@@ -7,8 +7,12 @@
 ## 📋 Overview
 
 This project implements a novel Siamese U-Net architecture with Alpha Blending for automatic detection and classification of building damage from satellite imagery after natural disasters. By analyzing pre- and post-disaster images through a dual-path neural network with shared weights, the system can accurately identify affected buildings and classify damage severity, providing critical intelligence for disaster response teams.
+
 <p align="center">
-  <img src="sample_images/disaster_detection.png" alt="Disaster Detection Example" width="700"/>
+  <img src="https://github.com/user-attachments/assets/d2c1b932-5245-467b-a72d-facd0579225b" alt="Disaster Detection Example" width="700"/>
+  
+ <img src="https://github.com/user-attachments/assets/63b8ebd0-a890-4b5f-ba6f-2a4024938a38" alt="Disaster Detection Example" width="700"/>
+
 </p>
 
 ## 🌟 Key Features
@@ -94,6 +98,13 @@ After extensive comparison with other architectures (ResNet-UNet and BDANet), th
 
 The Siamese U-Net consistently outperformed other models in maintaining balanced predictions across all damage classes, even when they coexist in the same image - a critical capability for real-world disaster response.
 
+## Some inference outputs:
+
+![hurricane-florence_00000127_comparison](https://github.com/user-attachments/assets/79c89300-fcde-4874-963c-8f9bb4b227df)
+
+![hurricane-matthew_00000163_comparison](https://github.com/user-attachments/assets/946b5a25-11bb-4ea1-80da-d82b0c5e0c50)
+
+
 Models were rigorously evaluated using multiple metrics:
 
 - **Dice coefficient**: Measuring overlap between prediction and ground truth
@@ -104,6 +115,5 @@ Models were rigorously evaluated using multiple metrics:
 ## Final Dice score obtained : 0.623
 ## Final IOU coefffiecient : 0.592
 <p align="center">
-  <img src="[sample_images/disaster_detection.png](https://github.com/user-attachments/assets/8f36e601-84f0-45b4-8f3a-1955c1f8999e)" alt="Disaster Detection Example" width="700"/>
-
+  <img src="https://github.com/user-attachments/assets/9c3d2bc2-6e13-45c1-9f4a-8893dafda263" alt="Disaster Detection Result" width="700"/>
 </p>
